@@ -1,0 +1,146 @@
+p{
+	line-height: 50px;
+	font-size: 25px;
+}
+.one{
+	border: hidden inset black;
+	padding: 40px 60px 50px 60px ;
+	margin: 50px 60px 70px 60px ;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg");
+	opacity: 0.5;
+}
+.two{
+	font-weight: 7000;
+	text-decoration-color: black;
+}
+#table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+}
+#table td, #table th {
+  border: 5px outset #ddd;
+  padding: 5px;
+}
+#table tr:nth-child(even){background-color: #f2f2f2;}
+.data h1 {
+  text-decoration: overline;
+}
+
+.data h2 {
+  text-decoration: line-through;
+}
+
+.data h3 {
+  text-decoration: underline;
+}
+
+.data h4 {
+  text-decoration: underline overline;
+}
+
+#table th{
+	padding: 9px;
+	font-size: 25px;
+	background-color: navy;
+	color: white;
+}
+#table1 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+}
+#table1 td, #table1 th {
+  border: 5px outset #ddd;
+  padding: 5px;
+}
+#table1 tr:nth-child(even){background-color: #f2f2f2;}
+.data1 h2 {
+  color: red;
+}
+
+.data1 h3 {
+  color: blue;
+}
+#table1 th{
+	padding: 9px;
+	font-size: 25px;
+	background-color: navy;
+	color: white;
+}
+#table2 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+}
+#table2 td, #table2 th {
+  border: 5px outset #ddd;
+  padding: 5px;
+}
+#table2 tr:nth-child(even){background-color: #f2f2f2;}
+#a {
+  quotes: "'" "'";
+}
+
+#b {
+  quotes: "„" "“" "‚" "‘";
+}
+
+#c {
+  quotes: "«" "»" "‹" "›";
+}
+#table2 th{
+	padding: 9px;
+	font-size: 25px;
+	background-color: navy;
+	color: white;
+}
+#table3 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+}
+#table3 td, #table3 th {
+  border: 5px outset #ddd;
+  padding: 5px;
+}
+#table3 tr:nth-child(even){background-color: #f2f2f2;}
+h3.a {
+  visibility: visible;
+}
+
+h3.b {
+  visibility: hidden;
+}
+#table3 th{
+	padding: 9px;
+	font-size: 25px;
+	background-color: navy;
+	color: white;
+	background-color: navy;
+	color: white;
+}
+#table4 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+}
+#table4 td, #table4 th {
+  border: 5px outset #ddd;
+  padding: 5px;
+}
+#table4 tr:nth-child(even){background-color: #f2f2f2;}
+p.a { 
+  word-spacing: normal;
+}
+
+p.b { 
+  word-spacing: 30px;
+}
+#table4 th{
+	padding: 9px;
+	font-size: 25px;
+	background-color: navy;
+	color: white;
+}
+	

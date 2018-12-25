@@ -1,0 +1,282 @@
+<!DOCTYPE>
+<html>
+<head>
+<link href="cssstyle.css" type="text/css" rel="stylesheet"/>
+<link href='https://fonts.googleapis.com/css?family=Chela One' rel='stylesheet'>
+<title>css keywords</title>
+</head>
+<body>
+<center><h1 style="font-family: 'Chela one'; font-size: 50px;">CSS Keywords</h1>
+<div class="one">
+<div class="two">
+<h2 style="font-family: 'Chela one'; font-size: 35px;">CSS Definition</h2>
+<p class="three"><strong>CSS. Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's HTML.</strong></p>
+</div>
+</div>
+</center>
+<h2><center style="font-family: 'Chela one'; font-size: 35px;">List of keywords.,</center></h2>
+<h2>1.Text-decoration:</h2>
+<div class="four">
+<h4 style="text-indent: 25px">The text-decoration property specifies the decoration added to text, and is a shorthand property for:</h4>
+<ul>
+	<li><h4>Text-decoration-Line</h4></li>
+	<li><h4>Text-decoration-Color</h4></li>
+	<li><h4>Text-decoration-Style</h4></li>
+</ul>
+</div>
+<table id="table">
+<tr>
+	<th>Sample Code</th>
+	<th>Output</th>
+</tr>
+<tr>
+<td><xmp>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  text-decoration: overline;
+}
+
+h2 {
+  text-decoration: line-through;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h4 {
+  text-decoration: underline overline;
+}
+</style>
+</head>
+<body>
+	<h1>This is heading 1</h1>
+	<h2>This is heading 2</h2>
+	<h3>This is heading 3</h3>
+	<h4>This is heading 4</h4>
+</body>
+</html>
+</xmp></td>
+<td class="data">
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+</td>
+</tr> 
+</table>
+
+
+
+
+
+
+
+<h2>2.Font-color:</h2>
+<div class="four">
+<h4 style="text-indent: 25px">The color attribute specifies the color of the text inside a &ltfont&gt element.</h4>
+<ul>
+	<li><h4>color_name - Specifies the text color with a color name (like "red")</h4></li>
+	<li><h4>hex_number - Specifies the text color with a hex code (like "#ff0000")</h4></li>
+	<li><h4>rgb_number - Specifies the text color with an rgb code (like "rgb(255,0,0)")</h4></li>
+</ul>
+</div>
+<table id="table1">
+<tr>
+	<th>Sample Code</th>
+	<th>Output</th>
+</tr>
+<tr>
+<td><xmp>
+<!DOCTYPE html>
+<html>
+<body>
+	<p><font color="red">This is some text!</font></p>
+	<p><font color="blue">This is some text!</font></p>
+</body>
+</html>
+</xmp></td>
+<td class="data1">
+<h2>This is some text!</h2>
+<h3>This is some text!</h3>
+</td>
+</tr> 
+</table>
+
+
+
+
+
+
+
+
+
+<h2>3.Quote:</h2>
+<div class="four">
+<h4 style="text-indent: 25px">The quotes property sets the type of quotation marks for quotations.</h4>
+<ul>
+	<li><h4>Default value:	not specified</h4></li>
+	<li><h4>Inherited: yes</h4></li>
+</ul>
+</div>
+<table id="table2">
+<tr>
+	<th>Sample Code</th>
+	<th>Output</th>
+</tr>
+<tr>
+<td><xmp>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#a {
+  quotes: "'" "'";
+}
+
+#b {
+  quotes: "„" "“" "‚" "‘";
+}
+
+#c {
+  quotes: "«" "»" "‹" "›";
+}
+</style>
+</head>
+<body>
+	<h1>The quotes Property</h1>
+	<p><q id="a">This is a quote.</q></p>
+	<p><q id="b">This is a <q>quote</q> inside a quote.</q></p>
+	<p><q id="c">This is a <q>quote</q> inside a quote.</q></p>
+</body>
+</html>
+</xmp></td>
+<td>
+<h1>The quotes Property</h1>
+<p><q id="a">This is a quote.</q></p>
+<p><q id="b">This is a <q>quote</q> inside a quote.</q></p>
+<p><q id="c">This is a <q>quote</q> inside a quote.</q></p>
+</td>
+</tr> 
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<h2>4.Visibility:</h2>
+<div class="four">
+<h4 style="text-indent: 25px">The visibility property specifies whether or not an element is visible.
+
+(Tip: Hidden elements take up space on the page. Use the display property to both hide and remove an element from the document layout!)
+
+</h4>
+<ul>
+	<li><h4>Default value:	visible</h4></li>
+	<li><h4>inhereted:  no</h4></li>
+</ul>
+</div>
+<table id="table3">
+<tr>
+	<th>Sample Code</th>
+	<th>Output</th>
+</tr>
+<tr>
+<td><xmp>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h3.a {
+  visibility: visible;
+}
+
+h3.b {
+  visibility: hidden;
+}
+</style>
+</head>
+<body>
+	<h1>The visibility Property</h1>
+	<h3 class="a">This heading is visible</h3>
+	<h3 class="b">This heading is hidden</h3>
+	<p>Notice that the hidden heading still takes up space on the page.</p>
+</body>
+</html>
+</xmp></td>
+<td>
+	<h2>The visibility Property</h2>
+	<h3 class="a">This heading is visible</h3>
+	<h3 class="b">This heading is hidden</h3>
+	<p>Notice that the hidden heading still takes up space on the page.</p>
+</td>
+</tr> 
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>5.Word-spacing:</h2>
+<div class="four">
+<h4 style="text-indent: 25px">The word-spacing property increases or decreases the white space between words.</h4>
+<h4 style="text-indent: 25px"><strong>Note:</strong> Negative values are allowed.</h4>
+</div>
+<table id="table4">
+<tr>
+	<th>Sample Code</th>
+	<th>Output</th>
+</tr>
+<tr>
+<td><xmp>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.a { 
+  word-spacing: normal;
+}
+
+p.b { 
+  word-spacing: 30px;
+}
+</style>
+</head>
+<body>
+	<h2>word-spacing: normal:</h2>
+	<p class="a">This is some text. This is some text.</p>
+	<h2>word-spacing: 30px:</h2>
+	<p class="b">This is some text. This is some text.</p>
+</body>
+</html>
+
+</xmp></td>
+<td class="data">
+	<h3>word-spacing: normal:</h3>
+	<p class="a">This is some text. This is some text.</p>
+	<h3>word-spacing: 30px:</h3>
+	<p class="b">This is some text. This is some text.</p>
+</td>
+</tr> 
+</table>
+</body>
+</html>
+
+	
+	
